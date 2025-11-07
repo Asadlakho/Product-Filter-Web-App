@@ -7,5 +7,5 @@ Filter by name 🔍, category 📂, and price 💰, with smooth hover effects �
 
 Built using HTML5 📝, TailwindCSS 🎨, JS ⚡, and Font Awesome icons 📌.
 
-Live Demo 🔗: https://asadlakhoportfolio.netlify.app/
-Contact 📧: asadlakho503@gmail.com
+Live Demo :
+🔗: https://asadlakho.github.io/Product-Filter-Web-App/
