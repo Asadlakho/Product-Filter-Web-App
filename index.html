@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Filter App - Modern UI</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body class="bg-gradient-to-br from-blue-100 to-blue-200 min-h-screen flex flex-col items-center py-10">
+
+  <h2 class="text-4xl font-bold mb-10 text-center text-gray-800">
+    <span class="text-pink-500">Product Filter</span> Web App
+  </h2>
+
+  <div class="flex flex-wrap justify-center gap-4 mb-10">
+    <input id="search" type="text" placeholder="Search by name" class="px-4 py-3 border-2 border-blue-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 w-64">
+    <select id="category" class="px-4 py-3 border-2 border-blue-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 w-64">
+      <option value="">All Categories</option>
+      <option value="electronics">Electronics</option>
+      <option value="clothes">Clothes</option>
+      <option value="books">Books</option>
+    </select>
+    <select id="sort" class="px-4 py-3 border-2 border-blue-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 w-64">
+      <option value="">Sort by Price</option>
+      <option value="low">Low to High</option>
+      <option value="high">High to Low</option>
+    </select>
+  </div>
+
+  <div id="output" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 w-full max-w-6xl" style="cursor: pointer;"></div>
+
+</body>
+<script src="filter.js"></script>
+</html>
